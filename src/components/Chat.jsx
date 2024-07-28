@@ -79,8 +79,7 @@ const Chat = ({ linkId, setLinkId, setIsAuth, setIsInChat }) => {
             user: auth.currentUser.displayName,
             linkId,
             isExpired: false,
-            creatorId,
-            dp: auth.currentUser.photoURL
+            creatorId
         });
 
         setNewMessage("");
